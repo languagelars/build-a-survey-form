@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* End of Reset */
+
+/* Global Styles */
+
+body {
+  line-height: 1.5;
+  font-family: Roboto, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+  padding: 2rem 0;
+}
+
+img {
+  max-width: 95%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+/* End of Global Styles */
+
+/* Utilities */
+
+.wrapper {
+  width: 95%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.lead {
+  font-weight: 300;
+  font-size: 1.1rem;
+  opacity: .75;
+}
+
+/* End of Utilities */
+
+/* Survey Form */
+
+#main-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#survey-form {
+  background-color: #fff;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, .08);
+}
+
+label,
+.question {
+  display: block; 
+  margin-bottom: .25rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+#dropdown,
+#feature,
+#comments,
+#submit {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: .5rem;
+}
+
+.hint {
+  font-size: .8rem;
+  margin-left: .25rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+  display: inline-block;
+  margin-left: .5rem;
+}
+
+#comments,
+#submit {
+  font-family: Roboto, sans-serif;
+}
+
+#comments {
+  resize: none;
+  height: 150px;
+  padding: 1rem;
+}
+
+#submit {
+  background-color: #E53E3E;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 1rem 0;
+  font-size: .9rem;
+  transition: opacity .3s ease-out;
+}
+
+#submit:hover {
+  opacity: .8;
+}
+
+/* End of Survey Form */
